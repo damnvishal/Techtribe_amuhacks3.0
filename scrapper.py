@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('D:\webscrapper\webscrapperdatasheet-0f49754baaff.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('https://github.com/damnvishal/Techtribe_amuhacks3.0/blob/main/webscrapperdatasheet-0f49754baaff.json', scope)
 client = gspread.authorize(credentials)
 
 
